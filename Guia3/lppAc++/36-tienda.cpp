@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int j, i, dias;
-float gran_total, hora;
-char nombre[25][21];
-char tipoM[25][21];
-float precio[25];
-int cantidad[25];
-float venta[25];
-float total[31];
 main() {
+    int j, i, dias;
+    float gran_total, hora;
+    char nombre[25][21];
+    char tipoM[25][21];
+    float precio[25];
+    int cantidad[25];
+    float venta[25];
+    float total[31];
 	gran_total = (float)(0);
 	cout<<"Digite el numero de dias que se efectuara la compra ";
 	cin >> dias;
@@ -18,7 +18,7 @@ main() {
 		total[j - 1] = (float)(0);
 		hora = (float)(8);
 		cout<<"dia: ";
-		while (hora <= 18) {
+		while (hora < 18) {
 			cout<<"Digite la hora ";
 			cin >> hora;
 			if (hora <= 18) {

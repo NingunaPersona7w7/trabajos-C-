@@ -15,5 +15,5 @@ main(){
         cin>>n2;
     res=n2-n1;
     cout<<"usted tiene "<<res<<"años";
-     
+
 }

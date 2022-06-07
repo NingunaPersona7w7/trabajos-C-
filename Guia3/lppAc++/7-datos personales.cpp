@@ -16,5 +16,4 @@ int main(){
     cout<<"ingrese su direccion\n";
         cin>>n3;
     cout<<"binevenido "<<n1<<" con numero "<<n2<<" y direccion "<<n3;
-     
 }
